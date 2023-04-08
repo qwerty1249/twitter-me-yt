@@ -20,9 +20,7 @@ const Sidebar = () => {
                 <SidebarLink text="Home" Icon={AiFillHome} />
                 <SidebarLink text="Explore" Icon={BiHash} />
                 <SidebarLink text="Notifications" Icon={BsBell} />
-                <a href="https://chat-zjcn.vercel.app/login" target="_blank" style="color: inherit; text-decoration: none;"><SidebarLink text="Messages" Icon={AiOutlineInbox} /></a>
-
-                
+                <SidebarLink text="Messages" Icon={AiOutlineInbox} />
                 <SidebarLink text="Bookmarks" Icon={BsBookmark} />
                 <SidebarLink text="Lists" Icon={HiOutlineClipboardList} />
                 <SidebarLink text="Profile" Icon={AiOutlineUser} />
